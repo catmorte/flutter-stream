@@ -1,4 +1,4 @@
-import 'package:flutter_stream/stream_holder.dart';
+import 'package:stream/stream_holder.dart';
 
 class StreamValue<T> with StreamHolder<T?> {
   T _value;

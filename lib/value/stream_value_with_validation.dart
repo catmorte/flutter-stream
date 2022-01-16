@@ -1,4 +1,4 @@
-import 'package:flutter_stream/value/stream_value.dart';
+import 'package:stream/value/stream_value.dart';
 
 class ValidationResult {
   final bool isValid;

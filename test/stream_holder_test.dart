@@ -1,11 +1,11 @@
-import 'package:flutter_stream/stream_holder.dart';
-import 'package:flutter_stream/value/stream_value.dart';
-import 'package:flutter_stream/value/stream_value_with_validation.dart';
-import 'package:flutter_stream/value/validation/checked.dart';
-import 'package:flutter_stream/value/validation/email.dart';
-import 'package:flutter_stream/value/validation/in_between.dart';
-import 'package:flutter_stream/value/validation/not_empty.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:stream/stream_holder.dart';
+import 'package:stream/value/stream_value.dart';
+import 'package:stream/value/stream_value_with_validation.dart';
+import 'package:stream/value/validation/checked.dart';
+import 'package:stream/value/validation/email.dart';
+import 'package:stream/value/validation/in_between.dart';
+import 'package:stream/value/validation/not_empty.dart';
 
 class X with StreamHolder<String> {}
 
